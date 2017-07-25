@@ -1,0 +1,402 @@
+{
+  "took": 2313,
+  "timed_out": false,
+  "_shards": {
+    "total": 20,
+    "successful": 20,
+    "failed": 0
+  },
+  "hits": {
+    "total": 135066685,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "Service": {
+      "doc_count_error_upper_bound": -1,
+      "sum_other_doc_count": 44165725,
+      "buckets": [
+        {
+          "key": "Xpert for Xbox",
+          "doc_count": 16000825,
+          "5xx": {
+            "doc_count": 16819,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 16000825,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Autopilot",
+          "doc_count": 14406777,
+          "5xx": {
+            "doc_count": 70763,
+            "count": {
+              "value": 12.239999767392874
+            }
+          },
+          "totalRequests": {
+            "doc_count": 14406777,
+            "count": {
+              "value": 758089.7998006903
+            }
+          },
+          "Availability": {
+            "value": 99.99838541558394
+          }
+        },
+        {
+          "key": "Multiplayer Session Directory (MPSD)",
+          "doc_count": 8494018,
+          "5xx": {
+            "doc_count": 40209,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 8492576,
+            "count": {
+              "value": 119781.35986590385
+            }
+          },
+          "Availability": {
+            "value": 100
+          }
+        },
+        {
+          "key": "Game Media",
+          "doc_count": 6557337,
+          "5xx": {
+            "doc_count": 8708,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 6557337,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Title Storage",
+          "doc_count": 5748322,
+          "5xx": {
+            "doc_count": 29063,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 5748322,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Privacy Service",
+          "doc_count": 5031423,
+          "5xx": {
+            "doc_count": 7433,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 5031423,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Presence",
+          "doc_count": 4846058,
+          "5xx": {
+            "doc_count": 55037,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 4846058,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "UserStats",
+          "doc_count": 3381041,
+          "5xx": {
+            "doc_count": 33697,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 3381041,
+            "count": {
+              "value": 287324.5797253251
+            }
+          },
+          "Availability": {
+            "value": 100
+          }
+        },
+        {
+          "key": "Xcloud / Thunderhead",
+          "doc_count": 2978779,
+          "5xx": {
+            "doc_count": 13535,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2975181,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Profile Service",
+          "doc_count": 2924389,
+          "5xx": {
+            "doc_count": 82395,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2924389,
+            "count": {
+              "value": 910706.0391072035
+            }
+          },
+          "Availability": {
+            "value": 100
+          }
+        },
+        {
+          "key": "Real-time activity",
+          "doc_count": 2821418,
+          "5xx": {
+            "doc_count": 27871,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2821418,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Xbox Live Entitlement",
+          "doc_count": 2374597,
+          "5xx": {
+            "doc_count": 2694,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2374597,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Xbox Live Image Service",
+          "doc_count": 2290863,
+          "5xx": {
+            "doc_count": 67435,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2290863,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "XSTS 2",
+          "doc_count": 2277679,
+          "5xx": {
+            "doc_count": 3093,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2277679,
+            "count": {
+              "value": 2875234.3550744057
+            }
+          },
+          "Availability": {
+            "value": 100
+          }
+        },
+        {
+          "key": "Xbox Live Entertainment Data Service (EDS)",
+          "doc_count": 2112586,
+          "5xx": {
+            "doc_count": 68053,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2112586,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "People",
+          "doc_count": 2107656,
+          "5xx": {
+            "doc_count": 30587,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 2107656,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "List Service",
+          "doc_count": 1921436,
+          "5xx": {
+            "doc_count": 5839,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 1921436,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "People Hub",
+          "doc_count": 1732756,
+          "5xx": {
+            "doc_count": 25966,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 1732756,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Reputation",
+          "doc_count": 1472697,
+          "5xx": {
+            "doc_count": 19,
+            "count": {
+              "value": 0
+            }
+          },
+          "totalRequests": {
+            "doc_count": 1472697,
+            "count": {
+              "value": 0
+            }
+          },
+          "Availability": {
+            "value": null
+          }
+        },
+        {
+          "key": "Xbox Live Zest Commerce",
+          "doc_count": 1420303,
+          "5xx": {
+            "doc_count": 61833,
+            "count": {
+              "value": 1.0199999809265137
+            }
+          },
+          "totalRequests": {
+            "doc_count": 1420303,
+            "count": {
+              "value": 21.0600004196167
+            }
+          },
+          "Availability": {
+            "value": 95.15669534376448
+          }
+        }
+      ]
+    }
+  }
+}
